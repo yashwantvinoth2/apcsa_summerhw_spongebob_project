@@ -38,7 +38,10 @@ public class Waterworld extends World
     {
         sbob spongebob = new sbob();
         addObject(spongebob, 328, 537);
-        spongebob.setLocation(399, 527);
+        spongebob.setLocation(350, 527);
+        patrick Patrick = new patrick();
+        addObject(Patrick, 328, 537);
+        Patrick.setLocation(450, 527);
     }
     public boolean isGameOver() {
         return gameOver;
